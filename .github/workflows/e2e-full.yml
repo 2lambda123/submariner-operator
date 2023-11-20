@@ -18,7 +18,7 @@ jobs:
       matrix:
         globalnet: ['', 'globalnet']
         # Run most tests against the latest K8s version
-        k8s_version: ['1.27']
+        k8s_version: ['1.28']
         lighthouse: ['', 'lighthouse']
         ovn: ['', 'ovn']
         exclude:
@@ -33,10 +33,9 @@ jobs:
           # https://submariner.io/development/building-testing/ci-maintenance/
           - k8s_version: '1.19'
           # Run default E2E against all supported K8s versions
-          - k8s_version: '1.24'
-          - k8s_version: '1.25'
           - k8s_version: '1.26'
           - k8s_version: '1.27'
+          - k8s_version: '1.28'
     steps:
       - name: Check out the repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
