@@ -8,7 +8,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.13.1
 	github.com/onsi/gomega v1.30.0
 	github.com/openshift/api v0.0.0-20230714214528-de6ad7979b00
-	github.com/operator-framework/operator-lib v0.11.1-0.20231020142438-152ee1fb7f83
+	github.com/operator-framework/operator-lib v0.12.0
 	github.com/operator-framework/operator-sdk v1.33.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.71.0
@@ -19,10 +19,10 @@ require (
 	github.com/submariner-io/submariner v0.17.0-m1
 	github.com/uw-labs/lichen v0.1.7
 	golang.org/x/text v0.14.0
-	k8s.io/api v0.28.4
-	k8s.io/apiextensions-apiserver v0.28.4
-	k8s.io/apimachinery v0.28.4
-	k8s.io/client-go v0.28.4
+	k8s.io/api v0.28.5
+	k8s.io/apiextensions-apiserver v0.28.5
+	k8s.io/apimachinery v0.28.5
+	k8s.io/client-go v0.28.5
 	k8s.io/utils v0.0.0-20231127182322-b307cd553661
 	sigs.k8s.io/controller-runtime v0.16.3
 	sigs.k8s.io/controller-tools v0.13.0
@@ -164,7 +164,7 @@ require (
 	github.com/opencontainers/runc v1.1.9 // indirect
 	github.com/opencontainers/runtime-spec v1.1.0 // indirect
 	github.com/operator-framework/ansible-operator-plugins v1.33.0 // indirect
-	github.com/operator-framework/api v0.20.0 // indirect
+	github.com/operator-framework/api v0.20.1-0.20240109180431-9ffba44ad7ed // indirect
 	github.com/operator-framework/helm-operator-plugins v0.0.12-0.20231013185714-215d1f8a3e7d // indirect
 	github.com/operator-framework/java-operator-plugins v0.8.1 // indirect
 	github.com/operator-framework/operator-manifest-tools v0.2.3-0.20230525225330-523bad646f89 // indirect
@@ -224,9 +224,9 @@ require (
 	golang.org/x/tools v0.14.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/genproto v0.0.0-20231030173426-d783a09b4405 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20231106174013-bbf56f31fb17 // indirect
+	google.golang.org/genproto v0.0.0-20231127180814-3a041ad873d4 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20231120223509-83a465c0220f // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231120223509-83a465c0220f // indirect
 	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -235,9 +235,9 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	helm.sh/helm/v3 v3.12.1 // indirect
-	k8s.io/apiserver v0.28.4 // indirect
+	k8s.io/apiserver v0.28.5 // indirect
 	k8s.io/cli-runtime v0.27.8 // indirect
-	k8s.io/component-base v0.28.4 // indirect
+	k8s.io/component-base v0.28.5 // indirect
 	k8s.io/klog/v2 v2.110.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20231129212854-f0671cc7e66a // indirect
 	k8s.io/kubectl v0.27.8 // indirect
